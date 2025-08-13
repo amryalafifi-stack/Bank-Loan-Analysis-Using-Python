@@ -1,7 +1,7 @@
 Loan Data Analysis
 
 Overview:
-Python is used to analyze a loan dataset, calculate KPIs, evaluate loan quality, and visualize trends, providing insights into borrower profiles and lending patterns.
+Python is used to analyze a loan dataset and generate actionable insights. It calculates KPIs, evaluates loan quality, and visualizes trends to understand borrower profiles and lending patterns.
 
 1. Load & Inspect Data
 import pandas as pd
@@ -104,10 +104,6 @@ Interactive treemap showing total funded amounts based on borrowers’ home owne
 Summary:
 
 This project calculates key loan metrics, evaluates loan quality, and visualizes trends across time, location, employment, loan purpose, and home ownership. It provides insights for lenders to understand funding patterns, borrower profiles, and regional disparities.
-
-fig.show()
-
-**This code creates an interactive treemap visualization to display how loan funding is distributed based on borrowers' home ownership status. It groups loan amounts by the "home_ownership" category, sums them, and converts the amounts into millions for easier interpretation. The treemap uses color intensity to represent the funded amount, with darker shades indicating higher totals. This visualization helps quickly understand the relationship between home ownership types and the total loans funded, providing a clear hierarchical view of the data.****
 
 
 #####################################################################################
